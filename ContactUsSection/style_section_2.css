@@ -1,0 +1,98 @@
+#section_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+input, textarea {
+    display: block;
+    width: -webkit-fill-available;;
+    outline: none;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+    padding: 0px 15px 0px 15px;
+}
+
+#section_2 .section_forms {
+    width: 50%;
+    padding: 0px 15px 0px 15px;
+}
+
+#section_2 .section_forms .forms_n_e input {
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    
+}
+
+.button button {
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: .8rem 2.25rem;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    z-index: 1;
+    border: 1px solid transparent;
+    -webkit-border-radius: 30px;
+}
+
+#section_2 .section_social {
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+}
+
+#section_2 .section_social .n-1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: inline-block;
+    color:#24cdd5;
+}
+
+#section_2 .section_social h1 {
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 1;
+    color: #384141;
+    margin-bottom: 23px;
+}
+
+#section_2 .section_social .n {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-size: 14px;
+    color: #808080;
+    font-weight: 400;
+}
+
+.social a {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: .3s all ease;
+}
+
+.social a i {
+    transition: .3s all ease;
+    color: black;
+}
+
+.social a:hover i {
+    transition: .3s all ease;
+    
+}
+
+.social a:hover {
+    background-color: aqua;
+}

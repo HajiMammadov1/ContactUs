@@ -1,0 +1,32 @@
+.section_3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_3 .box_size {
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 40px 15px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.section_3 .box_size span {
+    display: block;
+    font-weight: normal;
+    line-height: 1.7;
+    color: #808080;
+    font-size: 15px;
+}
+
+.section_3 .box_size a {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1;
+    display: block;
+}
+
+.section_3 .box_size a i {
+    color: #24cdd5;
+}
